@@ -1,0 +1,20 @@
+
+:root{
+    --color-text:#EE0000;
+}
+body{
+    background-color: #000;
+}
+.container{
+    height: 100vh;
+    color: var(--color-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.container-clock{
+    width: 50%;
+    font-size: 8vw;
+
+    display: flex;
+}
